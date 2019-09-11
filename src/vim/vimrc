@@ -3,8 +3,19 @@
 " ----------------------------------------------------------------------
 
 set nocompatible                    " Don't make Vim vi-compatibile.
+set fileformats=unix,dos
+set history=100
+set ignorecase
+set number
+set showmatch
 
 syntax on                           " Enable syntax highlighting.
+
+highlight Comment ctermfg=LightCyan
+set wrap
+set incsearch
+set hlsearch
+set smartcase
 
 if has('autocmd')
     filetype plugin indent on
