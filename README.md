@@ -20,6 +20,7 @@ files described in the [`Local Settings`](#local-settings) section.
 * [📄 License](#license)
 
 ## Setup
+
 To set up the `dotfiles` just run the appropriate snippet in the
 terminal:
 
